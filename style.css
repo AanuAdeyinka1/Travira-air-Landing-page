@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  overflow-x: hidden;
+  
   font-family: "Lato", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -97,7 +96,7 @@ a {
   margin-bottom: 70px;
 }
 .plane-container {
-  width: 780px;
+  
 }
 
 .booking {
@@ -118,7 +117,7 @@ a {
 .container-3 {
   background: #0e1035;
 
-  flex-shrink: 0;
+  
 }
 
 .container-3 {
@@ -274,7 +273,7 @@ a {
   margin-bottom: 10%;
 }
 .engineer {
-  margin-left: 15%;
+  margin-left: 30%;
 }
 .engineer img {
   height: 500px;
@@ -305,11 +304,20 @@ a {
   gap: 100px;
   margin-left: 5%;
 }
+@media only screen and (min-width: 1024px) {
+  /* Adjust styles for laptop/desktop screens here */
+  .image-container {
+    /* padding: 30px; */
+    
+  }
+
+}
+
 .border-box {
   position: relative;
   width: 500px;
   height: 500px;
-  margin-top: 15%;
+  margin-top: 100px;
 }
 .cloud-1 {
   position: absolute;
@@ -317,19 +325,19 @@ a {
   top: 390%;
   width: 440px;
   height: 360px;
-  margin-top: 15%;
+  margin-top: 750px;
 }
 .aero-1 {
   position: absolute;
   width: 400px;
   left: 9%;
-  top: 425%;
+  top: 510%;
   z-index: 3;
 }
 
 .plane-description {
   position: absolute;
-  top: 470%;
+  top: 550%;
   z-index: 4;
   left: 12%;
   color: #0e1035;
@@ -345,12 +353,12 @@ a {
   position: relative;
   width: 500px;
   height: 500px;
-  margin-top: 15%;
+  margin-top: 100px;
 }
 .cloud-2 {
   position: absolute;
   left: 47%;
-  top: 390%;
+  top: 465%;
   width: 440px;
   height: 360px;
   margin-top: 15%;
@@ -360,13 +368,13 @@ a {
   position: absolute;
   width: 400px;
   left: 49%;
-  top: 440%;
+  top: 515%;
   z-index: 3;
 }
 
 .plane-description2 {
   position: absolute;
-  top: 470%;
+  top: 550%;
   z-index: 4;
   left: 52%;
   color: #0e1035;
@@ -382,16 +390,16 @@ a {
   position: relative;
   width: 300px;
   height: 510px;
-  margin-top: 15%;
+  margin-top: 50px;
   top: 5%;
 }
 .cloud-3 {
   position: absolute;
   left: 86%;
-  top: 387%;
+  top: 460%;
   width: 260px;
   height: 380px;
-  margin-top: 15%;
+  margin-top: 16%;
   z-index: 2;
 }
 .aero-3 {
@@ -399,7 +407,7 @@ a {
   width: 200px;
   height: 200px;
   left: 90%;
-  top: 440%;
+  top: 515%;
   z-index: 3;
 }
 
@@ -430,7 +438,7 @@ a {
   flex-shrink: 0;
 }
 .photo {
-  width: 60px;
+  width: 100px;
   height: 60px;
   margin-top: 20px;
 }
@@ -522,7 +530,7 @@ a {
   margin-top: -80px;
   margin-left: 7%;
   background-color: #0e1035;
-  width: 1394.5px;
+  width: 1500.5px;
   height: 250px;
   flex-shrink: 0;
   border-radius: 50px;
