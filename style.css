@@ -307,17 +307,21 @@ a {
 @media only screen and (min-width: 1024px) {
   /* Adjust styles for laptop/desktop screens here */
   .image-container {
-    
+    width: 00px;
     
   }
 
 }
 
 .border-box {
-  position: relative;
+  /* position: relative;
   width: 500px;
   height: 500px;
-  margin-top: 100px;
+  margin-top: 100px; */
+  position: relative;
+  width: 500px;
+  height: 280px;
+  margin-top: 300px;
 }
 .cloud-1 {
   position: absolute;
@@ -357,8 +361,8 @@ a {
 }
 .cloud-2 {
   position: absolute;
-  left: 35%;
-  top: 3210px;
+  left: 47%;
+  top: 3230px;
   width: 440px;
   height: 360px;
   margin-top: 15%;
@@ -395,8 +399,8 @@ a {
 }
 .cloud-3 {
   position: absolute;
-  left: 75%;
-  top: 3170px;
+  left: 86%;
+  top: 3200px;
   width: 260px;
   height: 380px;
   margin-top: 16%;
