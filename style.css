@@ -322,7 +322,7 @@ a {
 .cloud-1 {
   position: absolute;
   left: 7%;
-  top: 390%;
+  top: 2700px;
   width: 440px;
   height: 360px;
   margin-top: 750px;
@@ -331,13 +331,13 @@ a {
   position: absolute;
   width: 400px;
   left: 9%;
-  top: 510%;
+  top: 3500px;
   z-index: 3;
 }
 
 .plane-description {
   position: absolute;
-  top: 550%;
+  top: 3800px;
   z-index: 4;
   left: 12%;
   color: #0e1035;
@@ -358,7 +358,7 @@ a {
 .cloud-2 {
   position: absolute;
   left: 47%;
-  top: 465%;
+  top: 3230px;
   width: 440px;
   height: 360px;
   margin-top: 15%;
@@ -368,13 +368,13 @@ a {
   position: absolute;
   width: 400px;
   left: 49%;
-  top: 515%;
+  top: 3550px;
   z-index: 3;
 }
 
 .plane-description2 {
   position: absolute;
-  top: 550%;
+  top: 3810px;
   z-index: 4;
   left: 52%;
   color: #0e1035;
@@ -396,7 +396,7 @@ a {
 .cloud-3 {
   position: absolute;
   left: 86%;
-  top: 460%;
+  top: 3200px;
   width: 260px;
   height: 380px;
   margin-top: 16%;
@@ -407,7 +407,7 @@ a {
   width: 200px;
   height: 200px;
   left: 90%;
-  top: 515%;
+  top: 3550px;
   z-index: 3;
 }
 
