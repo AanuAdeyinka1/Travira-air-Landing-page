@@ -301,32 +301,46 @@ a {
 }
 .image-container {
   display: flex;
-  gap: 100px;
+  gap: 10px;
   margin-left: 5%;
 }
 @media only screen and (min-width: 1024px) {
   /* Adjust styles for laptop/desktop screens here */
   .image-container {
-    width: 00px;
-    
+
   }
 
 }
 
 .border-box {
-  /* position: relative;
+  position: relative;
   width: 500px;
   height: 500px;
-  margin-top: 100px; */
+  margin-top: 100px;
   /* position: relative;
   width: 500px;
   height: 280px;
   margin-top: 300px; */
 }
+
+@media only screen and (min-width: 1024px) {
+  /* Adjust styles for laptop/desktop screens here */
+  .border-box{
+width: 500px;
+height: 500px;
+  }
+  .cloud-1{
+    width:100em;
+    height: 100px;
+    
+  }
+
+}
+
 .cloud-1 {
-  position: relative;
+  position: absolute;
   left: 7%;
-  top: -2700px;
+  top: 2700px;
   width: 440px;
   height: 360px;
   margin-top: 750px;
@@ -334,7 +348,7 @@ a {
 .aero-1 {
   position: absolute;
   width: 400px;
-  left: 7%;
+  left: 8%;
   top: 3500px;
   z-index: 3;
 }
@@ -353,16 +367,16 @@ a {
   line-height: 150%; /* 54px */
 }
 
-/* .border-box2 {
+.border-box2 {
   position: relative;
   width: 500px;
   height: 500px;
   margin-top: 100px;
-} */
+}
 .cloud-2 {
-  position: relative;
-  left: 20%;
-  top: -3230px;
+  position: absolute;
+  left: 41%;
+  top: 3230px;
   width: 440px;
   height: 360px;
   margin-top: 15%;
@@ -371,7 +385,7 @@ a {
 .aero-2 {
   position: absolute;
   width: 400px;
-  left: 29%;
+  left: 41%;
   top: 3550px;
   z-index: 3;
 }
@@ -380,7 +394,7 @@ a {
   position: absolute;
   top: 3810px;
   z-index: 4;
-  left: 20%;
+  left: 45%;
   color: #0e1035;
   text-align: center;
   font-family: Inter;
@@ -390,17 +404,17 @@ a {
   line-height: 150%; /* 54px */
 }
 
-/* .border-box3 {
+.border-box3 {
   position: relative;
   width: 300px;
   height: 510px;
   margin-top: 50px;
   top: 5%;
-} */
+}
 .cloud-3 {
-  position: relative;
-  left: 86%;
-  top: -3200px;
+  position: absolute;
+  left: 74.35%;
+  top: 3200px;
   width: 260px;
   height: 380px;
   margin-top: 16%;
@@ -410,7 +424,7 @@ a {
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 90%;
+  left: 78%;
   top: 3550px;
   z-index: 3;
 }
