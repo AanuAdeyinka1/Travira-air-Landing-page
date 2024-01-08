@@ -325,8 +325,8 @@ a {
 }
 .cloud-1 {
   position: absolute;
-  left: 13%;
-  top: 2790px;
+  left: 7%;
+  top: 2700px;
   width: 440px;
   height: 360px;
   margin-top: 750px;
@@ -361,7 +361,7 @@ a {
 }
 .cloud-2 {
   position: absolute;
-  left: 47%;
+  left: 20%;
   top: 3230px;
   width: 440px;
   height: 360px;
@@ -371,7 +371,7 @@ a {
 .aero-2 {
   position: absolute;
   width: 400px;
-  left: 49%;
+  left: 29%;
   top: 3550px;
   z-index: 3;
 }
@@ -380,7 +380,7 @@ a {
   position: absolute;
   top: 3810px;
   z-index: 4;
-  left: 52%;
+  left: 20%;
   color: #0e1035;
   text-align: center;
   font-family: Inter;
