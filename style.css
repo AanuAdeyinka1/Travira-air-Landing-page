@@ -326,7 +326,7 @@ a {
 .cloud-1 {
   position: relative;
   left: 7%;
-  top: 2700px;
+  /* top: 2700px; */
   width: 440px;
   height: 360px;
   margin-top: 750px;
@@ -362,7 +362,7 @@ a {
 .cloud-2 {
   position: relative;
   left: 20%;
-  top: 3230px;
+  /* top: 3230px; */
   width: 440px;
   height: 360px;
   margin-top: 15%;
@@ -400,7 +400,7 @@ a {
 .cloud-3 {
   position: relative;
   left: 86%;
-  top: 3200px;
+  /* top: 3200px; */
   width: 260px;
   height: 380px;
   margin-top: 16%;
